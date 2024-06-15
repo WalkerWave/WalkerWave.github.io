@@ -1,12 +1,13 @@
 ---
 layout: post
 title: kubernetes informer 机制详解
-excerpt_image: https://github.com/huziuncle/huziuncle.github.io/blob/master/assets/images/k8s/k8s.png?raw=true
+subtitle: 通过 Kubernetes 源码梳理 informer 机制的实现原理和工作流程
+excerpt_image: https://github.com/huziuncle/huziuncle.github.io/blob/master/assets/images/k8s/k8s.webp?raw=true
 categories: Kubernetes
 tags: [Kubernetes]
 ---
 
-![banner](https://github.com/huziuncle/huziuncle.github.io/blob/master/assets/images/k8s/k8s.png?raw=true)
+![banner](https://github.com/huziuncle/huziuncle.github.io/blob/master/assets/images/k8s/k8s.webp?raw=true)
 
 ## 简介
 Kubernetes Informer 机制是 Kubernetes 客户端库（Client-Go）中的一个重要组件，用于监控和缓存 Kubernetes API 对象的变化。
